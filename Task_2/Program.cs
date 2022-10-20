@@ -1,2 +1,20 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("1Hello, World!");
+﻿// Задача 2: Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
+
+// a = 5; b = 7 -> max = 7
+// a = 2 b = 10 -> max = 10
+// a = -9 b = -3 -> max = -3
+
+int a = 2;
+int b = 10;
+int max = a;
+int min = b;
+if (max>min)
+{
+    Console.WriteLine(max = a);
+    Console.WriteLine(min = b);
+}
+else
+{
+    Console.WriteLine(max = b);
+    Console.WriteLine(min = a);
+}
