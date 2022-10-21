@@ -14,8 +14,6 @@ while (i <= n)
    {
      Console.WriteLine(i);
    }
-    
-
     i++;
 
 }
